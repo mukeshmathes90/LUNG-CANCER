@@ -54,6 +54,9 @@ OUTPUT:
 ![val_batch0_labels](https://github.com/user-attachments/assets/1151f96a-b14f-41eb-a8be-a93ea2551118)
 
 
+![val_batch0_pred](https://github.com/user-attachments/assets/255e90a9-0f6c-4fa6-bad0-2680f648b54f)
+
+
 
 
 
