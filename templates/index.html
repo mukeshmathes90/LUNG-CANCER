@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>YOLOv5 Object Detection</title>
+</head>
+<body>
+    <div class="container">
+        <h1>YOLOv5 Object Detection</h1>
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" name="file" accept="image/*" required>
+            <button type="submit">Upload Image</button>
+        </form>
+        <button id="liveButton">Live Detection</button>
+        <div id="results"></div>
+    </div>
+
+    <script>
+        const form = document.getElementById('uploadForm');
+        form.onsubmit = async (e) => {
+            e.preventDefault();
+            const formData = new FormData(form);
+            const response = await fetch('/upload', {
+                method: 'POST',
+                body: formData
+            });
+            const result = await response.json();
+            displayResults(result);
+        };
+
+        function displayResults(result) {
+            let message = result.message + '<br>';
+            //message += ` ${result.motorcycle_detected ? 'Yes' : 'No'}<br>`;
+            message += `Cancer Cells Detected: ${result.cancer_cell_detected ? 'Yes' : 'No'}`;
+            document.getElementById('results').innerHTML = message;
+        }
+
+        document.getElementById('liveButton').onclick = () => {
+            window.location.href = '/live';
+        };
+    </script>
+</body>
+</html>

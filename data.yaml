@@ -1,0 +1,5 @@
+train: "D:/Project/Image processing/yolov5/yolov5-master/yolov5-master/train_data/images/train"
+val: "D:/Project/Image processing/yolov5/yolov5-master/yolov5-master/train_data/images/val"
+
+nc: 2  
+names: ['cancerous_colon', 'normal_cells']
