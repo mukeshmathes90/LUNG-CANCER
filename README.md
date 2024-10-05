@@ -39,6 +39,9 @@ X = (x_1, x_2, ..., x_M)
 Outputs a hidden state for each word:
 hi=EncoderRNN(xi,hi−1)
 h_i = \text{EncoderRNN}(x_i, h_{i-1})
+
+
+
 Decoder:
 The probability of the target sentence
  Y=(y1,y2,...,yN)
