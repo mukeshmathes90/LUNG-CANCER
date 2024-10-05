@@ -50,6 +50,10 @@ Predicts the next word yny_nyn  based on all previous words
 
 ![image](https://github.com/user-attachments/assets/63afde99-fae0-4d92-96d7-60aa79932dd7)
 
+OUTPUT:
+![val_batch0_labels](https://github.com/user-attachments/assets/1151f96a-b14f-41eb-a8be-a93ea2551118)
+
+
 
 
 
