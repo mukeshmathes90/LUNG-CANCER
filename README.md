@@ -54,7 +54,49 @@ OUTPUT:
 ![val_batch0_labels](https://github.com/user-attachments/assets/1151f96a-b14f-41eb-a8be-a93ea2551118)
 
 
+
+
+
+
+
+
+
+
+
+
 ![val_batch0_pred](https://github.com/user-attachments/assets/255e90a9-0f6c-4fa6-bad0-2680f648b54f)
+
+
+
+
+
+
+
+
+
+
+
+
+![val_batch0_pred](https://github.com/user-attachments/assets/9a23d30d-4709-4f1f-becf-62cd0cb915e2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![colonca744 - Copy](https://github.com/user-attachments/assets/91376690-4610-429a-970a-b2c8a31f6f2e)
+
 
 
 
